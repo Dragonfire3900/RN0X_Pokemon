@@ -1,4 +1,4 @@
-name: tiny-mlperf-env
+name: demo-env
 channels:
   - conda
   - conda-forge
