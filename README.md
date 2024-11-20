@@ -1,6 +1,9 @@
 # RN0X_Pokemon
 Tiny, Quantized Neural Network, orignially based on ResNet8, trained to recognize pokemon. Originally developed/optimized for the TinyMLPerf v0.7/1.0 Image Classification Benchmark, using the CIFAR-10 Dataset. 
 
+# Environment
+The base conda environment for the demo can be created using `conda env create -f environment.yml`. This will create the `demo-env` environment for the training/demo stages. Any additional dependencies for development can be installed using the [conda update](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment) command.
+
 ## Run Training
 To Train a given model:
 `python train_pokemon.py -c config/<config>.yml`
